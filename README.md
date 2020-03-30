@@ -1,5 +1,6 @@
 # GenoCAP
-##Prokaryotic Genome Phylogenetic and Functional Comparative analysis pipeline
+
+## Prokaryotic Genome Phylogenetic and Functional Comparative analysis pipeline
 
 ## Introduction
 This project consists of a set of 3 bash scripts that when used in sequential order, utilize a variety of genomic analysis tools and databases to perform an automated, phylogenomic and functional comparative analysis of prokaryotic genomes.
@@ -67,7 +68,7 @@ The scripts were written and tested in a Ubuntu server (16.04) environment with 
 As these scripts essentially run an analysis workflow each is dependent on a different set of third-party analysis software that must be installed correctly (including their own dependencies). When each script is executed by the user it will first check whether the required dependencies are installed and can be called by command.
 Below are listed the third-party dependencies including those specific for each script in the pipeline. If you do use this pipeline for any published research please acknowledge and/or cite the relevant third-party software.
 
-###Non-specific dependencies
+### Non-specific dependencies
 
 GNU parallel - <https://www.gnu.org/software/parallel/>
 
@@ -84,7 +85,7 @@ Catfasta2phyml.pl - <https://github.com/nylander/catfasta2phyml>
 Fasttree - <http://microbesonline.org/fasttree/>
 
 
-###Refine\_cluster\_genes.sh
+### Refine\_cluster\_genes.sh
 
 NCBI BLAST suite - <https://www.ncbi.nlm.nih.gov/books/NBK52640/>
 
@@ -95,4 +96,4 @@ pyani - <https://github.com/widdowquinn/pyani>
 Get\_homologues - <https://github.com/eead-csic-compbio/get_homologues>
 
 
-###Genome\_func\_parallel.sh
+### Genome\_func\_parallel.sh
